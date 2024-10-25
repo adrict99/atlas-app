@@ -150,7 +150,7 @@
 			const formData = new FormData($form);
 
 			// Send form data to the server.
-			fetch('https://server-endpoint.com/leads-email', {
+			fetch('https://tkwombajukdvhqijbsyo.supabase.co/functions/v1/send-lead-email', {
 				method: 'POST',
 				body: formData
 			})
